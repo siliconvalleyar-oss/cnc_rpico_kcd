@@ -1,0 +1,30 @@
+# KiCad
+*-backups/
+*.kicad_pro.lck
+*.kicad_prl
+fp-info-cache
+
+# OS
+.DS_Store
+
+# IDE
+.history/
+
+# FreeRouting
+*.jar
+
+# Manufacturing output
+gerbers/
+*.gbr
+*.drl
+*.gbl
+*.gtl
+*.gbs
+*.gts
+*.gbo
+*.gto
+*.gm1
+*.pos
+
+# License
+LICENSE
