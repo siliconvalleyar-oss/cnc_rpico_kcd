@@ -1,0 +1,3963 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "656bb609-fa76-4fae-b74c-91514c1c1664")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R5"
+				(at 0 6.35 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0"
+				(at 0 -6.35 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Regulator_Switching:R-78E3.3-0.5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-78E3.3-0.5"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dc-dc recom Step-Down DC/DC-Regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Converter*DCDC*RECOM*R*78E*0.5*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-78E3.3-0.5_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R-78E3.3-0.5_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_DIP_x01"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_DIP_x01"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dip switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW?DIP?x1*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.127) (xy 2.3622 1.1684)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_0_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SW_DIP_x01_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3VA"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3.3VA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 191.6176 74.5744)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cc7301d-cce5-4608-895e-03578cc76a7c")
+	)
+	(junction
+		(at 107.8992 129.8956)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6231567b-8a6c-43d1-877e-6fb22b7182a7")
+	)
+	(junction
+		(at 125.8316 61.976)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8119c0e8-04b4-4d04-a2b1-a1488a83221c")
+	)
+	(junction
+		(at 113.4364 113.3856)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8460e097-60e5-48c8-973d-2456a7e655eb")
+	)
+	(junction
+		(at 241.6556 117.602)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f2b95b9-2789-4f1a-bdf6-26b8d4d38cf5")
+	)
+	(junction
+		(at 130.7592 129.8956)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "996167db-c867-4d28-a98c-27a5211c5972")
+	)
+	(junction
+		(at 219.5576 59.3344)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b772a61c-1978-46ee-9d14-66c20c392333")
+	)
+	(junction
+		(at 96.6216 61.976)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1e17afd-6b24-4f97-a660-4112c31bfebe")
+	)
+	(junction
+		(at 213.7156 136.652)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e622ea-aed6-430f-a9e1-c3055f9b31b4")
+	)
+	(junction
+		(at 130.7592 113.3856)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9dffae-2e8e-4a1f-b854-e0e506686454")
+	)
+	(junction
+		(at 119.3292 129.8956)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e35e27f2-875a-4300-b106-dd9963d9653f")
+	)
+	(junction
+		(at 119.3292 113.3856)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3824df1-4ebd-4dbd-b1c9-11f2dcfc6f96")
+	)
+	(junction
+		(at 111.8616 74.676)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e58cdc9b-f13c-4968-b56c-b32a41002e26")
+	)
+	(junction
+		(at 219.5576 55.5244)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e79444f5-bba0-45a6-8980-8ea94133663a")
+	)
+	(junction
+		(at 78.8416 61.976)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fac91ce9-aa18-4989-9f21-dbb00c2debbd")
+	)
+	(wire
+		(pts
+			(xy 119.3292 113.3856) (xy 113.4364 113.3856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d56b97-8412-43cd-bae1-60bb52f5fbfa")
+	)
+	(wire
+		(pts
+			(xy 213.7156 117.602) (xy 221.3356 117.602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123da440-09a5-4ebb-b7cc-1ed2616c4caf")
+	)
+	(wire
+		(pts
+			(xy 191.6176 55.5244) (xy 199.2376 55.5244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12c81ac5-6706-472c-b055-284c3fc5013f")
+	)
+	(wire
+		(pts
+			(xy 78.8416 64.516) (xy 78.8416 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15448e57-c311-4427-a040-8f6cd3e81fd2")
+	)
+	(wire
+		(pts
+			(xy 241.6556 117.602) (xy 241.6556 125.222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "184d71e7-b69a-4a39-bb15-0c987332c261")
+	)
+	(wire
+		(pts
+			(xy 219.5576 50.4444) (xy 219.5576 55.5244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197aaa6e-a284-43c3-b624-c325cbdb775b")
+	)
+	(wire
+		(pts
+			(xy 219.5576 70.7644) (xy 219.5576 74.5744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a640f3a-4de9-4ae6-b731-47ae7c664f25")
+	)
+	(wire
+		(pts
+			(xy 125.8316 74.676) (xy 125.8316 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6f5ce4-7455-4091-b052-b4629b42a0bd")
+	)
+	(wire
+		(pts
+			(xy 241.6556 132.842) (xy 241.6556 136.652)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7865bb-3165-4e6a-b1f7-989d1eb1dab9")
+	)
+	(wire
+		(pts
+			(xy 96.6216 61.976) (xy 96.6216 64.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f296f5a-3fdd-4bc4-9a92-4ef493c89a9f")
+	)
+	(wire
+		(pts
+			(xy 219.5576 55.5244) (xy 219.5576 59.3344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232030c0-dafe-4937-a48a-bef695c891b5")
+	)
+	(wire
+		(pts
+			(xy 241.6556 109.982) (xy 241.6556 117.602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248241a1-324b-44d9-9ad3-a3f5b4330fff")
+	)
+	(wire
+		(pts
+			(xy 142.1892 129.8956) (xy 142.1892 126.0856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24db03a1-558f-465e-95a4-2fc5ef9552d7")
+	)
+	(wire
+		(pts
+			(xy 142.1892 113.3856) (xy 130.7592 113.3856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e35477-7e9b-461e-b018-4c8e3fc0ff34")
+	)
+	(wire
+		(pts
+			(xy 111.8616 78.486) (xy 111.8616 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c876a55-99ac-45fc-9e28-22a314f1a459")
+	)
+	(wire
+		(pts
+			(xy 213.7156 145.542) (xy 213.7156 136.652)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d09f20d-9de5-4b7f-8d72-3e90c930a787")
+	)
+	(wire
+		(pts
+			(xy 125.8316 61.976) (xy 125.8316 64.516)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3970f326-54f4-480b-917c-e4171ccdcb5b")
+	)
+	(wire
+		(pts
+			(xy 119.3292 113.3856) (xy 119.3292 118.4656)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f60559-5de9-4ede-9686-784419453800")
+	)
+	(wire
+		(pts
+			(xy 78.8416 72.136) (xy 78.8416 73.406)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fcfd7d-91d6-470d-87e9-cddbee543df9")
+	)
+	(wire
+		(pts
+			(xy 96.6216 74.676) (xy 96.6216 72.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f981c0-5e9a-49a7-8ffb-359df0531d8d")
+	)
+	(wire
+		(pts
+			(xy 191.6176 55.5244) (xy 191.6176 74.5744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a22006-3a2f-402f-9b85-d19e2c446c2e")
+	)
+	(wire
+		(pts
+			(xy 78.8416 53.086) (xy 83.9216 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bad6eca-130b-4995-8c12-cd7bbc62c687")
+	)
+	(wire
+		(pts
+			(xy 119.4816 61.976) (xy 125.8316 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556f6fa7-d819-4579-bf94-47c50230af0a")
+	)
+	(wire
+		(pts
+			(xy 214.4776 55.5244) (xy 219.5576 55.5244)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8db6bc-7578-4119-83af-2b422a1a8e87")
+	)
+	(wire
+		(pts
+			(xy 142.1892 118.4656) (xy 142.1892 113.3856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed89f45-9b4b-4a73-89f3-46202a5aabdf")
+	)
+	(wire
+		(pts
+			(xy 111.8616 69.596) (xy 111.8616 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71832781-9dfc-42ac-a467-3fc188f876ec")
+	)
+	(wire
+		(pts
+			(xy 219.5576 37.7444) (xy 219.5576 45.3644)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a2b57d0-53e1-4527-8492-05a74e800585")
+	)
+	(wire
+		(pts
+			(xy 219.5576 59.3344) (xy 224.6376 59.3344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9e8090-5904-4794-aafa-88361795ca62")
+	)
+	(wire
+		(pts
+			(xy 219.5576 59.3344) (xy 219.5576 63.1444)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "811ac782-d683-40d1-9367-98f04d958fc7")
+	)
+	(wire
+		(pts
+			(xy 142.1892 129.8956) (xy 130.7592 129.8956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f7e619-f4ba-4f02-a84b-473b2c966a37")
+	)
+	(wire
+		(pts
+			(xy 236.5756 117.602) (xy 241.6556 117.602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7d0f93-1df2-43d4-9eec-3eec301b8b8c")
+	)
+	(wire
+		(pts
+			(xy 130.7592 129.8956) (xy 119.3292 129.8956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993df186-a4a2-4557-861b-e1c592683ab3")
+	)
+	(wire
+		(pts
+			(xy 107.8992 129.8956) (xy 107.8992 126.0856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "994937c1-a6cc-443d-8901-254adc035ebf")
+	)
+	(wire
+		(pts
+			(xy 119.3292 129.8956) (xy 119.3292 126.0856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7d8631-6dd0-4633-8517-8d35b4f9004d")
+	)
+	(wire
+		(pts
+			(xy 91.5416 61.976) (xy 96.6216 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17a31f3-f6dc-460a-89e9-12714b2d572c")
+	)
+	(wire
+		(pts
+			(xy 111.8616 74.676) (xy 125.8316 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1eb1de6-8d8d-408e-a7af-bd46f04db8cc")
+	)
+	(wire
+		(pts
+			(xy 78.8416 53.086) (xy 78.8416 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bb0902-eeee-4658-802f-224387eec460")
+	)
+	(wire
+		(pts
+			(xy 241.6556 94.742) (xy 241.6556 104.902)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a8e8a9-d893-46a8-8646-5c13699384ac")
+	)
+	(wire
+		(pts
+			(xy 113.4364 109.474) (xy 113.4364 113.3856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ead503-40ad-4285-be92-ac8e4578e8cb")
+	)
+	(wire
+		(pts
+			(xy 213.7156 117.602) (xy 213.7156 136.652)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86746d9-d0de-4f0b-b934-beb946f206fd")
+	)
+	(wire
+		(pts
+			(xy 130.7592 129.8956) (xy 130.7592 126.0856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1696fd8-7bef-4121-b8eb-949fbc825586")
+	)
+	(wire
+		(pts
+			(xy 130.7592 113.3856) (xy 119.3292 113.3856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac2b32b-0dfe-4bcb-b67c-09e86e76b2a3")
+	)
+	(wire
+		(pts
+			(xy 191.6176 74.5744) (xy 219.5576 74.5744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d265066f-d413-40a1-bfa3-196234ed7f8d")
+	)
+	(wire
+		(pts
+			(xy 107.8992 113.3856) (xy 107.8992 118.4656)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc829c2-b2b7-4633-a03f-c9dfb3edd7cd")
+	)
+	(wire
+		(pts
+			(xy 78.8416 61.976) (xy 83.9216 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb1aa72-527d-4c7e-a83a-2fc53b5f22ad")
+	)
+	(wire
+		(pts
+			(xy 119.3292 129.8956) (xy 107.8992 129.8956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4269b89-7a9a-4e2c-9609-c9bb8ffb3197")
+	)
+	(wire
+		(pts
+			(xy 104.2416 61.976) (xy 96.6216 61.976)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0bb1db-1153-4ae0-b328-98bbb9a0206d")
+	)
+	(wire
+		(pts
+			(xy 213.7156 136.652) (xy 241.6556 136.652)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb138857-1381-4793-88b5-edad0d6c8cce")
+	)
+	(wire
+		(pts
+			(xy 130.7592 113.3856) (xy 130.7592 118.4656)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec77ce40-9f9e-4728-a568-15d29c179c12")
+	)
+	(wire
+		(pts
+			(xy 107.8992 134.1628) (xy 107.8992 129.8956)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28c762a-79ef-429b-9855-9804bc9cad6b")
+	)
+	(wire
+		(pts
+			(xy 191.6176 83.4644) (xy 191.6176 74.5744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8380752-d61b-4ae7-9562-e0531e574a4f")
+	)
+	(wire
+		(pts
+			(xy 113.4364 113.3856) (xy 107.8992 113.3856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93a02c8-7ab5-46b4-b414-e17169a94051")
+	)
+	(wire
+		(pts
+			(xy 241.6556 117.602) (xy 246.7356 117.602)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe16ee67-5937-451a-a66b-9a0c986829d6")
+	)
+	(wire
+		(pts
+			(xy 96.6216 74.676) (xy 111.8616 74.676)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feddb230-ca65-4e46-8fc5-c162d509bec3")
+	)
+	(label "+5"
+		(at 83.9216 53.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28051567-9942-4e30-9652-42afcf66d76c")
+	)
+	(label "usb_boot"
+		(at 246.7356 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ee6aab-5179-488e-a5af-5226644e3938")
+	)
+	(label "run"
+		(at 224.6376 59.3344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9101227-b686-4f5c-9e2b-79fba25bf604")
+	)
+	(hierarchical_label "vcc"
+		(shape input)
+		(at 78.8416 56.896 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eafc667d-9d09-4c27-adea-8246ecb0d461")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.8616 78.486 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00cabe97-f4d9-4eb0-ac48-c975dbe5d2e5")
+		(property "Reference" "#PWR080"
+			(at 111.8616 84.836 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.8616 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.8616 78.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.8616 78.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.8616 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a60fbb26-5be8-4517-9422-3be448a9312f")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 241.6556 94.742 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08da3a52-1d63-4a01-bc6b-200e17388984")
+		(property "Reference" "#PWR0138"
+			(at 241.6556 98.552 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 241.6556 89.662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.6556 94.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.6556 94.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.6556 94.742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaf6c5a3-e90c-4458-8572-9dd9b19966dc")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 206.8576 55.5244 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239819d2-ba2b-4972-99ee-be19e0c13667")
+		(property "Reference" "SW1"
+			(at 206.8576 47.9044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "run"
+			(at 206.8576 50.4444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+			(at 206.8576 55.5244 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.8576 55.5244 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 206.8576 55.5244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "487b226a-b33e-472f-8344-43d9316289a9")
+		)
+		(pin "2"
+			(uuid "4e30fda6-75cf-4644-b699-eb216e84742d")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/09987633-cd1c-4465-b0bc-a21e8550f73f"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.8316 68.326 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a6385b1-8b5d-4e66-87dd-0959577891c0")
+		(property "Reference" "C74"
+			(at 131.6736 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 132.6896 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 124.8664 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.8316 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.8316 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4cf6e2f-23b0-4045-b3f5-873ca3684348")
+		)
+		(pin "2"
+			(uuid "de183e36-4be7-4017-bbb6-b4934ca9b16b")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/8cc3d87e-66d3-4bb3-be5f-abca356f4cca"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 241.6556 107.442 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b702a9a-079b-4e75-afa6-e90a2cbd1588")
+		(property "Reference" "R18"
+			(at 244.1956 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 244.1956 108.712 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.6556 107.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.6556 107.442 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.6556 107.442 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96b20f3a-c5aa-4a63-99fc-50da8c118015")
+		)
+		(pin "2"
+			(uuid "da361f78-fc1c-4bc7-993b-72ed46d32218")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.8992 134.1628 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aac6dce-291a-4858-b793-bf672c617a01")
+		(property "Reference" "#PWR0140"
+			(at 107.8992 140.5128 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.8992 139.2428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.8992 134.1628 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.8992 134.1628 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.8992 134.1628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f3d1066-6a4a-4b4e-a13c-ba9c479b053d")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:R-78E3.3-0.5")
+		(at 111.8616 61.976 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf90efe-9e2a-4e88-a560-66ec01b3af11")
+		(property "Reference" "U6"
+			(at 111.8616 55.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R-78E3.3-0.5"
+			(at 111.8616 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:ATPAK-2"
+			(at 113.1316 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
+			(at 111.8616 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.8616 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "955ca0cf-e4b1-4d03-8a45-684fb793feb8")
+		)
+		(pin "2"
+			(uuid "babe855b-89f5-43db-8a7f-03b575a13541")
+		)
+		(pin "3"
+			(uuid "a8312a40-0120-47fd-8fe0-c0d13ad64328")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "U?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 213.7156 145.542 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "463d3b0c-53dd-4667-98b9-f3ddee54c057")
+		(property "Reference" "#PWR066"
+			(at 213.7156 151.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.7156 150.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.7156 145.542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.7156 145.542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.7156 145.542 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb15462d-3df2-4978-b0f0-c742d4e3934b")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 119.3292 122.2756 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "485a5cc8-ec77-4831-b9c7-bec20c8d627f")
+		(property "Reference" "C69"
+			(at 115.5192 123.5457 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 115.5192 121.0057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 118.364 118.4656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.3292 122.2756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.3292 122.2756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df62e817-4f30-4a1e-ba62-895b2d129ab6")
+		)
+		(pin "2"
+			(uuid "39b76f63-9d2d-453a-b691-664e7e8301c4")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.8416 73.406 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57a6f9d9-7d49-43b3-b868-09558f22abe9")
+		(property "Reference" "#PWR063"
+			(at 78.8416 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.8416 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.8416 73.406 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.8416 73.406 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.8416 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcd655a6-5e47-4f3e-b362-f4b70c80557f")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 125.8316 61.976 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cd50f53-57d8-4d5d-8a24-d5f2297524fc")
+		(property "Reference" "#PWR0137"
+			(at 125.8316 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 125.8316 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.8316 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.8316 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.8316 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f8f8f89-4ff3-4a42-aa80-512f199b7f3e")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 142.1892 122.2756 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6336d455-384f-46a5-8d4d-891fb6dcd2a1")
+		(property "Reference" "C67"
+			(at 138.3792 123.5457 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 138.3792 121.0057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 141.224 118.4656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.1892 122.2756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.1892 122.2756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0e07174-5c18-4b0e-9226-2ef42523e033")
+		)
+		(pin "2"
+			(uuid "adac0fce-1459-4873-9e4d-8efdcea3ca4a")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.6556 129.032 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ea3fc4-c420-4930-89a4-6a69fe1d2c45")
+		(property "Reference" "C75"
+			(at 245.4656 127.7619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 245.4656 130.3019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 242.6208 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.6556 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 241.6556 129.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80a12509-9521-4633-ad7e-312914fcf39c")
+		)
+		(pin "2"
+			(uuid "47ae8395-2950-4472-87c1-c029322e0cab")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 219.5576 66.9544 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d03a7a2-0b02-48c0-97bb-b89ee0e47e99")
+		(property "Reference" "C73"
+			(at 223.3676 65.6843 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 223.3676 68.2243 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 220.5228 70.7644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.5576 66.9544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.5576 66.9544 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98198c19-8951-48e7-86d9-0d20747d4d3a")
+		)
+		(pin "2"
+			(uuid "bf20dd29-5801-4746-a407-5733a201b1f6")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 87.7316 61.976 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a654bd2a-2d8e-42b4-9ea4-5485a771618a")
+		(property "Reference" "L4"
+			(at 87.7316 58.166 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100mh"
+			(at 90.2716 64.516 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+			(at 87.7316 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.7316 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.7316 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73521705-fc05-48bd-94a2-4e375db27674")
+		)
+		(pin "2"
+			(uuid "79d5d213-4942-405d-a523-3bb2db2411ef")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "L?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/8cc3d87e-66d3-4bb3-be5f-abca356f4cca"
+					(reference "L?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 219.5576 37.7444 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0c75d7-3d8d-42a2-b227-5cd1fc9a54d9")
+		(property "Reference" "#PWR0136"
+			(at 219.5576 41.5544 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 219.5576 32.6644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.5576 37.7444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.5576 37.7444 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.5576 37.7444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bfacfc6-35cf-4338-8e4c-8c1f7c3b9285")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.8992 122.2756 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4d081b-3209-4e65-9c58-c0b965c50f63")
+		(property "Reference" "C70"
+			(at 104.0892 123.5457 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 104.0892 121.0057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 106.934 118.4656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.8992 122.2756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.8992 122.2756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca1fbe9b-79dc-40c1-a7f1-33ab6e499cfb")
+		)
+		(pin "2"
+			(uuid "f0bb171c-5abe-446e-a8ef-6f88a774734a")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 113.4364 109.474 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d085a0fc-27d0-4fc9-9820-02ee9a2394f9")
+		(property "Reference" "#PWR062"
+			(at 113.4364 113.284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 113.4364 104.394 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.4364 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.4364 109.474 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 113.4364 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cc18607-d567-4a82-ac7b-d09c5799e96a")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.8416 68.326 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3c1dfb9-b61a-454f-acc1-5502aabe3147")
+		(property "Reference" "C71"
+			(at 72.4916 65.786 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 72.4916 69.596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 79.8068 72.136 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.8416 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.8416 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be621c7f-0181-4f96-b9a0-5e72e5f7d223")
+		)
+		(pin "2"
+			(uuid "8d0c5da9-c399-4c55-9c7b-36542344f29c")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.6216 68.326 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6078a6a-8813-404b-a7ef-357fafeb6286")
+		(property "Reference" "C72"
+			(at 102.4636 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 103.4796 66.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 95.6564 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.6216 68.326 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.6216 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18391ef4-335f-4ecc-b926-e9aff6deef13")
+		)
+		(pin "2"
+			(uuid "c2b75a58-4a10-4607-8fe8-6b7cf28ad792")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/8cc3d87e-66d3-4bb3-be5f-abca356f4cca"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.6176 83.4644 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e859fb45-668b-43fb-84b6-3ef154c8d619")
+		(property "Reference" "#PWR064"
+			(at 191.6176 89.8144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.6176 88.5444 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.6176 83.4644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.6176 83.4644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.6176 83.4644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb8816e5-959e-4d4b-af95-7688c534cfda")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_DIP_x01")
+		(at 228.9556 117.602 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb6a6d47-bcc1-49ba-9c6a-3a9d92d7956d")
+		(property "Reference" "SW2"
+			(at 228.9556 109.982 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "run"
+			(at 228.9556 112.522 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
+			(at 228.9556 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.9556 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 228.9556 117.602 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "862a9157-df26-4cb0-812b-ff9dbf9b3e13")
+		)
+		(pin "2"
+			(uuid "271e2793-724a-43f4-acb9-0576c727cf5c")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/09987633-cd1c-4465-b0bc-a21e8550f73f"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130.7592 122.2756 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f56c9157-458f-4603-8c76-cf3c512020c1")
+		(property "Reference" "C68"
+			(at 126.9492 123.5457 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 126.9492 121.0057 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 129.794 118.4656 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.7592 122.2756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 130.7592 122.2756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "387cc668-09c8-4b53-a3a4-f14319dbd93d")
+		)
+		(pin "2"
+			(uuid "8df57738-73f7-44b8-bbe5-265a037760e7")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 219.5576 47.9044 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7ed173-6c67-4b96-83ca-950510e25b64")
+		(property "Reference" "R17"
+			(at 222.0976 46.6344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 222.0976 49.1744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 219.5576 47.9044 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.5576 47.9044 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.5576 47.9044 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aef90eec-b2af-4047-a8c4-d17a58bfbb25")
+		)
+		(pin "2"
+			(uuid "1b81a14a-a58a-4fcd-a04c-c8e2c1a7ce12")
+		)
+		(instances
+			(project "project_pi"
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/b5d23a5d-5098-4708-9d84-8e554856594a/32a7254d-5557-4ccc-9a6b-7cf735213f61"
+					(reference "R?")
+					(unit 1)
+				)
+				(path "/787baf38-3f0d-4343-8d8d-fd5be619bbb1/be324a08-68f1-4642-bc35-d1762087a708/feef21c9-d342-4994-b3e4-90909be040b4"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6/4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3/12ec788c-3c2b-47a0-a3d7-c356e7c357f5"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "ArduSWR"
+				(path "/b399551b-4b97-4302-8921-d6009c0adde4"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

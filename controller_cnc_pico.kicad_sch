@@ -1,0 +1,466 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "85b83150-d39b-4c84-ad9c-9f94ca990aff")
+	(paper "A4")
+	(lib_symbols)
+	(text "RF"
+		(exclude_from_sim no)
+		(at 215.9 109.22 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "268e50b2-fad6-47ec-88f7-a83decea10fa")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 102.87 68.58 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "4158ae10-c7ff-4a6e-be84-0c49bc23799d")
+	)
+	(text "DRIVERS"
+		(exclude_from_sim no)
+		(at 157.48 67.31 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "699159fb-3b9c-43d8-833f-24d76d8e2b06")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 97.79 109.22 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a758cf0-135b-4166-baea-5fecc29da5ca")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 218.44 67.31 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "80762b71-266a-4747-b3c5-727d1bc98b84")
+	)
+	(text "MAIN"
+		(exclude_from_sim no)
+		(at 161.29 109.22 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "871e8bcd-cdff-4c16-be3f-af2e83217c31")
+	)
+	(text "FT232\n"
+		(exclude_from_sim no)
+		(at 99.06 147.32 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "f22dfca4-eb24-4284-a2fa-f293c118fa02")
+	)
+	(sheet
+		(at 86.36 53.34)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "152c3a52-afe9-4e78-9d7e-25a179fe0eb2")
+		(property "Sheetname" "spi"
+			(at 86.36 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "spi.kicad_sch"
+			(at 86.36 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 92.71)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "23e6818b-ae5c-4dae-a0a8-e98fb2b38b7d")
+		(property "Sheetname" "rf"
+			(at 203.2 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rf.kicad_sch"
+			(at 203.2 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.844 129.5908)
+		(size 40.1828 29.6164)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4b83bae0-162b-4c44-83e2-50d0763a1742")
+		(property "Sheetname" "oS_AnalogDev"
+			(at 148.844 128.8792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oScope_AnalogDev.kicad_sch"
+			(at 148.844 159.7918 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 92.71)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "54db8939-9328-4c6a-8881-0ae264a39953")
+		(property "Sheetname" "power"
+			(at 86.36 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 86.36 121.2346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 130.81)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "55824f7d-749e-47ed-a57c-0c24aaf69d31")
+		(property "Sheetname" "ft232"
+			(at 86.36 130.0984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ft232.kicad_sch"
+			(at 86.36 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 52.07)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ae3f18c-2435-4923-a9f9-f163f2eb169b")
+		(property "Sheetname" "drivers_cnc"
+			(at 147.32 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "drivers_cnc.kicad_sch"
+			(at 147.32 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 50.8)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "aa4f23ca-7d6f-4fdb-870f-4bb0a54dca09")
+		(property "Sheetname" "i2c"
+			(at 203.2 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "i2c.kicad_sch"
+			(at 203.2 79.3246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 95.25)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d3d9d984-db97-40ed-acd3-1b0fe3a127e6")
+		(property "Sheetname" "main"
+			(at 148.59 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 148.59 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

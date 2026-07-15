@@ -1,0 +1,124 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "105ef8ff-0ac9-4638-b3f3-12fd87d321ba")
+	(paper "A4")
+	(lib_symbols)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 92.71 120.65 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fb5815d-2b25-402f-bbcc-687808ce4bbf")
+	)
+	(text "SD CARD\n"
+		(exclude_from_sim no)
+		(at 160.02 78.74 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c929add-c8b9-436f-bd2e-bd81e9ba17c3")
+	)
+	(sheet
+		(at 142.24 59.69)
+		(size 53.34 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "053b4b93-b467-4c44-b73d-c859e702a53b")
+		(property "Sheetname" "sd"
+			(at 142.24 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sd.kicad_sch"
+			(at 142.24 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/152c3a52-afe9-4e78-9d7e-25a179fe0eb2"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 102.87)
+		(size 52.07 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "feb14ac2-7c3d-4123-b652-73164a5330e8")
+		(property "Sheetname" "memory"
+			(at 74.93 102.1584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 74.93 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/152c3a52-afe9-4e78-9d7e-25a179fe0eb2"
+					(page "14")
+				)
+			)
+		)
+	)
+)

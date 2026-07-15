@@ -1,0 +1,298 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6b1537f7-34e9-45f7-b9f9-cdce80595320")
+	(paper "A4")
+	(lib_symbols)
+	(text "DRIVER 1\n"
+		(exclude_from_sim no)
+		(at 132.08 72.39 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c7dd041-4dbc-48ba-8c62-252694d0fb9d")
+	)
+	(text "DRIVER 4"
+		(exclude_from_sim no)
+		(at 166.37 100.33 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e934e44-ec5d-4cf7-8cbb-0512b8dd197e")
+	)
+	(text "DRIVER 3\n"
+		(exclude_from_sim no)
+		(at 133.35 127 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "8686502d-3b47-4808-98d0-f4cfa5aa83cc")
+	)
+	(text "DRIVER 2\n"
+		(exclude_from_sim no)
+		(at 132.08 100.33 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d59d61f9-3616-496a-8535-bdda6ecf5083")
+	)
+	(text "DRIVER 5\n"
+		(exclude_from_sim no)
+		(at 166.37 127 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e69ddee9-ce7e-44a3-a484-7e4928f11189")
+	)
+	(sheet
+		(at 124.46 115.57)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "40d387f7-497b-4be0-942f-a4292b70ee9d")
+		(property "Sheetname" "driver3"
+			(at 124.46 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver3.kicad_sch"
+			(at 124.46 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/5ae3f18c-2435-4923-a9f9-f163f2eb169b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 88.9)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "87089e79-1133-42d7-b0e4-08610783ce1a")
+		(property "Sheetname" "driver2"
+			(at 124.46 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver2.kicad_sch"
+			(at 124.46 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/5ae3f18c-2435-4923-a9f9-f163f2eb169b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 60.96)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8f9b0913-88b1-49a7-bf10-7145dbb18fba")
+		(property "Sheetname" "driver1"
+			(at 124.46 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver1.kicad_sch"
+			(at 124.46 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/5ae3f18c-2435-4923-a9f9-f163f2eb169b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 115.57)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9125e2e0-abb1-4f33-b43a-0779131c7bed")
+		(property "Sheetname" "driver5"
+			(at 158.75 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver5.kicad_sch"
+			(at 158.75 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/5ae3f18c-2435-4923-a9f9-f163f2eb169b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 88.9)
+		(size 26.67 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bcff106b-b4ca-4943-af7f-dd66ed797a2b")
+		(property "Sheetname" "driver4"
+			(at 158.75 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver4.kicad_sch"
+			(at 158.75 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/5ae3f18c-2435-4923-a9f9-f163f2eb169b"
+					(page "4")
+				)
+			)
+		)
+	)
+)

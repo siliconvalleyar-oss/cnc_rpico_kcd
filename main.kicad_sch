@@ -1,0 +1,345 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "17ff2bbf-08fe-4e38-afad-99dfafc83261")
+	(paper "A4")
+	(lib_symbols)
+	(text "LED DEBBUG"
+		(exclude_from_sim no)
+		(at 72.39 135.89 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "02178d02-5521-4e48-b5d6-9832894e51d6")
+	)
+	(text "MCU PIC32\n"
+		(exclude_from_sim no)
+		(at 73.66 74.93 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+				(color 146 146 146 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "326c4a1f-af4f-4283-9212-1831c6ad1b27")
+	)
+	(text "BUTTONS"
+		(exclude_from_sim no)
+		(at 212.09 74.93 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "42f56854-b0f8-4629-9a50-6c8474c014a9")
+	)
+	(text "OSC"
+		(exclude_from_sim no)
+		(at 149.86 74.93 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fe00cea-339f-4a26-8ced-f0bf7a07e6a2")
+	)
+	(text "ICD"
+		(exclude_from_sim no)
+		(at 152.4 133.35 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ba07a56-dff7-45b5-9fc6-a63961335f77")
+	)
+	(sheet
+		(at 129.54 52.07)
+		(size 50.8 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2305b74c-84f4-4c61-b809-1cef8167f5c3")
+		(property "Sheetname" "oscillator"
+			(at 129.54 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillator.kicad_sch"
+			(at 129.54 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 53.34)
+		(size 50.8 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "32a5f48f-35a5-44cf-ad66-f851caa96c21")
+		(property "Sheetname" "buttons"
+			(at 191.77 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 191.77 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 192.024 108.0008)
+		(size 52.2224 41.1988)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4c52ea46-3c0d-47f8-9366-2da2d0b4c6e3")
+		(property "Sheetname" "RPI_pico_w"
+			(at 192.024 107.2892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RPI_pico_w.kicad_sch"
+			(at 192.024 149.7842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 115.57)
+		(size 49.53 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5602f51f-631d-4b26-9c8e-61cec0269018")
+		(property "Sheetname" "icd"
+			(at 134.62 114.8584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "icd.kicad_sch"
+			(at 134.62 147.9046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 116.84)
+		(size 49.53 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bf87ca2a-1c22-4a55-8fdd-51881b33e518")
+		(property "Sheetname" "led"
+			(at 59.69 116.1284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "led.kicad_sch"
+			(at 59.69 150.4446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 50.8)
+		(size 52.07 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d1eb4574-bcc9-421e-89e1-7bed3af2b04b")
+		(property "Sheetname" "mcu_pic32"
+			(at 58.42 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_pic32.kicad_sch"
+			(at 58.42 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/d3d9d984-db97-40ed-acd3-1b0fe3a127e6"
+					(page "8")
+				)
+			)
+		)
+	)
+)

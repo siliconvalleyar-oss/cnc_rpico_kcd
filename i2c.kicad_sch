@@ -1,0 +1,66 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fa3cca7e-9665-4d09-bedb-28decd1128b6")
+	(paper "A4")
+	(lib_symbols)
+	(text "DISPLAY I2C"
+		(exclude_from_sim no)
+		(at 140.97 87.63 0)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "dca39dcf-92c4-46e8-b05c-61b98452707e")
+	)
+	(sheet
+		(at 133.35 73.66)
+		(size 31.75 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7489ca2-a714-45ea-b170-38c593bef7d8")
+		(property "Sheetname" "display"
+			(at 133.35 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 133.35 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller_cnc_pico"
+				(path "/85b83150-d39b-4c84-ad9c-9f94ca990aff/aa4f23ca-7d6f-4fdb-870f-4bb0a54dca09"
+					(page "11")
+				)
+			)
+		)
+	)
+)
